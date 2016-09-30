@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <!--  <item android:drawable="@drawable/img1" android:state_pressed="true"></item>
+     <item android:drawable="@drawable/img2" android:state_selected="true"></item>
+     <item android:drawable="@drawable/img3" ></item>
+ -->
+         
+          <item android:state_pressed="true">
+              <color  android:color="#FF0"/>
+          </item>
+          <item android:state_selected="true">
+              <color  android:color="#0FF"/>
+          </item>
+           <item>
+              <color  android:color="#000"/>
+          </item>
+
+    <!-- <item android:color="#F0F"  android:state_focused="true"></item> 
+
+    <item  android:color="#FF0" android:state_pressed="true"></item>
+
+    <item android:color="#000"></item>
+ -->
+</selector>
